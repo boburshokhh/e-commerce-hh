@@ -1,18 +1,32 @@
-# Vite React TypeScript Starter
+# E-Commerce Project
 
-A modern starter template for building React applications using Vite, TypeScript, and Tailwind CSS.
+A modern e-commerce web application built with React, TypeScript, and Tailwind CSS. Features a clean and responsive design with components for Best Sellers, Categories, Flash Sales, and New Arrivals.
+
+## Demo
+
+**Live Preview:** [View Demo](https://67a334bc3459221a42ad1da4--e-commerce-hh-bobur.netlify.app)
 
 ## Features
 
-- **Vite** for blazing fast development and build processes
+- **Modern UI/UX** - Clean and responsive design
+- **Product Categories** - Browse products by categories
+- **Flash Sales** - Time-limited special offers
+- **Best Sellers** - Top selling products section
+- **New Arrivals** - Latest products showcase
+- **Vite** for blazing fast development
 - **React 18** for building user interfaces
-- **TypeScript** for type safety and enhanced developer experience
-- **Tailwind CSS** for utility-first styling
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
 - **Framer Motion** for animations
-- **Lucide React** for beautiful, consistent icons
-- **ESLint** for code linting and maintaining code quality
+- **Lucide React** for icons
+- **ESLint** for code quality
 
 ## Getting Started
+
+### Live Demo
+
+You can view the live demo of the project at:  
+[E-Commerce Demo](https://67a334bc3459221a42ad1da4--e-commerce-hh-bobur.netlify.app)
 
 ### Prerequisites
 
