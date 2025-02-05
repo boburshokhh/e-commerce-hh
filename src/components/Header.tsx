@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Heart, ShoppingCart, ChevronDown, Menu, X } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,10 +41,38 @@ export function Header() {
 
             {/* Navigation - Desktop */}
             <nav className="hidden lg:flex space-x-8">
-              <a href="#" className="hover:text-red-500 transition-colors">Home</a>
-              <a href="#" className="hover:text-red-500 transition-colors">Contact</a>
-              <a href="#" className="hover:text-red-500 transition-colors">About</a>
-              <a href="#" className="hover:text-red-500 transition-colors">Sign Up</a>
+              <NavLink 
+                to="/" 
+                className={({ isActive }) => 
+                  isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                }
+              >
+                Home
+              </NavLink>
+              <NavLink 
+                to="/contact" 
+                className={({ isActive }) => 
+                  isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                }
+              >
+                Contact
+              </NavLink>
+              <NavLink 
+                to="/about" 
+                className={({ isActive }) => 
+                  isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                }
+              >
+                About
+              </NavLink>
+              <NavLink 
+                to="/signup" 
+                className={({ isActive }) => 
+                  isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                }
+              >
+                Sign Up
+              </NavLink>
             </nav>
 
             {/* Search and Icons */}
@@ -93,10 +122,38 @@ export function Header() {
           {isMenuOpen && (
             <nav className="lg:hidden mt-4 border-t pt-4">
               <div className="flex flex-col space-y-4">
-                <a href="#" className="hover:text-red-500 transition-colors">Home</a>
-                <a href="#" className="hover:text-red-500 transition-colors">Contact</a>
-                <a href="#" className="hover:text-red-500 transition-colors">About</a>
-                <a href="#" className="hover:text-red-500 transition-colors">Sign Up</a>
+                <NavLink 
+                  to="/" 
+                  className={({ isActive }) => 
+                    isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                  }
+                >
+                  Home
+                </NavLink>
+                <NavLink 
+                  to="/contact" 
+                  className={({ isActive }) => 
+                    isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                  }
+                >
+                  Contact
+                </NavLink>
+                <NavLink 
+                  to="/about" 
+                  className={({ isActive }) => 
+                    isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                  }
+                >
+                  About
+                </NavLink>
+                <NavLink 
+                  to="/signup" 
+                  className={({ isActive }) => 
+                    isActive ? "hover:text-red-500 transition-colors border-b-2 border-red-500" : "hover:text-red-500 transition-colors"
+                  }
+                >
+                  Sign Up
+                </NavLink>
               </div>
             </nav>
           )}
