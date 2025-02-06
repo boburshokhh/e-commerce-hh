@@ -4,7 +4,7 @@ A modern e-commerce web application built with React, TypeScript, and Tailwind C
 
 ## Demo
 
-**Live Preview:** [View Demo]([https://e-commerce-hh-bobur.netlify.app/])
+**Live Preview:** [View Demo](https://e-commerce-hh-bobur.netlify.app/)
 
 ## Features
 
