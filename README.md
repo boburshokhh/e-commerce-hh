@@ -23,11 +23,6 @@ A modern e-commerce web application built with React, TypeScript, and Tailwind C
 
 ## Getting Started
 
-### Live Demo
-
-You can view the live demo of the project at:  
-[E-Commerce Demo](https://67a334bc3459221a42ad1da4--e-commerce-hh-bobur.netlify.app)
-
 ### Prerequisites
 
 Ensure you have **Node.js** and **npm** installed on your machine. You can download them from [Node.js official website](https://nodejs.org/).
